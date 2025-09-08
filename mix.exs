@@ -40,9 +40,14 @@ defmodule SelectBuddy.MixProject do
   defp package do
     [
       name: "select_buddy",
-      files: ~w(lib priv .formatter.exs mix.exs README* LICENSE*),
+      files: ~w(lib priv .formatter.exs mix.exs README* LICENSE* CHANGELOG*),
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/SangRJ/select_buddy"}
+      links: %{
+        "GitHub" => "https://github.com/SangRJ/select_buddy",
+        "Changelog" => "https://github.com/SangRJ/select_buddy/blob/main/CHANGELOG.md"
+      },
+      maintainers: ["SangRJ"],
+      exclude_patterns: ["test/"]
     ]
   end
 
