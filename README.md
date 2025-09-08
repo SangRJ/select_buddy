@@ -258,6 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
+- Inspired by LiveSelect Dynamic (multi)selection field for LiveView.
 - Inspired by various select components in the Phoenix ecosystem
 - Built with Phoenix LiveView and Phoenix Components
 - Uses modern accessibility standards
