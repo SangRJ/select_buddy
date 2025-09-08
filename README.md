@@ -193,8 +193,8 @@ end
 
 SelectBuddy comes with sensible default styles but is fully customizable. The component uses the following CSS classes:
 
-- `.live-select-container` - Main container
-- `.live-select-input` - Input field
+- `.select-buddy-container` - Main container
+- `.select-buddy-input` - Input field
 - `.selected-options` - Multi-select selected items container
 - `.selected-option` - Individual selected item
 - `.dropdown` - Dropdown container
@@ -209,7 +209,7 @@ The component includes automatic dark mode support when using `prefers-color-sch
 You can override the default styles by targeting the CSS classes:
 
 ```css
-.my-custom-select .live-select-input {
+.my-custom-select .select-buddy-input {
   border: 2px solid #3b82f6;
   border-radius: 0.5rem;
 }
